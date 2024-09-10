@@ -1,0 +1,39 @@
+name: ferias
+description: "IFPA"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flip_card: ^0.7.0
+  responsive_sizer: ^3.1.1
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+  
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/cartel.jpg
+    - assets/images/cartel1.jpg
+    - assets/images/cartel2.jpg
+    - assets/images/cartel3.jpg
+    - assets/images/cartel4.jpg
+    - assets/images/cartel5.png
+    - assets/images/cartel6.jpg
+    - assets/images/fondo.png
+    - assets/images/reverso.png
